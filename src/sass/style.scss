@@ -1,13 +1,14 @@
 $theme-colors: (
-    "primary": blue,
+    "primary": #102B49,
+    "secondary": #329FDF,
     "dark": #000000
 );
 
 @import "node_modules/bootstrap/scss/bootstrap";
 
-body {
-    padding-top:56px;
-}
+// body {
+//     padding-top:56px;
+// }
 .footer {
     margin-top:3rem;
 }
