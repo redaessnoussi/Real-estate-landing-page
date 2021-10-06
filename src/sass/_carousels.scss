@@ -15,5 +15,8 @@
     &.active{
       background-color: $secondary;
     }
+    &:not(:last-child){
+      margin-right: 10px;
+    }
   }
 }
