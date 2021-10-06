@@ -1,0 +1,19 @@
+.rounded-indicator {
+  margin: 0;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: start;
+  padding: 0;
+  margin-bottom: 1rem;
+  list-style: none;
+  li{
+    border-radius: 50%;
+    width: 10px!important;
+    height: 10px!important;
+    opacity: 1!important;
+    &.active{
+      background-color: $secondary;
+    }
+  }
+}

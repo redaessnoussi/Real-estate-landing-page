@@ -1,0 +1,39 @@
+.list-index {
+  position: absolute;
+  z-index: 9;
+
+  li.active:before {
+    content: '';
+    width: 100px;
+    border-bottom: solid 5px $black;
+    position: absolute;
+    top: 50%;
+    left: -120px;
+  }
+
+  li:before {
+    content: '';
+    width: 70px;
+    border-bottom: solid 2.5px $grey;
+    position: absolute;
+    top: 50%;
+    left: -100px;
+  }
+
+  li.active {
+    position: relative;
+    margin-left: 120px;
+    font-weight: 700;
+    font-size: 24px;
+    color: $black !important;
+  }
+
+  li {
+    position: relative;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    font-weight: 500;
+    font-size: 20px;
+    color: $grey !important;
+  }
+}

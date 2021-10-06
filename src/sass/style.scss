@@ -1,17 +1,27 @@
-$theme-colors: (
-    "primary": #102B49,
+$grey: #C4C4C4;
+$secondary: #329FDF;
+$blight2: #F4FAFE;
+
+$theme-colors: ("primary": #102B49,
     "secondary": #329FDF,
-    "dark": #000000
+    "dark": #000000,
+    "light": #E9F5FC,
+    "yellow": #FDFAF2,
+    "white": #ffffff,
+    "blight": #CBE5F7,
+    "blight2": #F4FAFE
 );
 
+//Importing Main Bootstrap
 @import "node_modules/bootstrap/scss/bootstrap";
 
-// body {
-//     padding-top:56px;
-// }
-.footer {
-    margin-top:3rem;
-}
-.navbar {
-    border-bottom:1px solid #eee;
-}
+//Components
+@import "navs";
+@import "media";
+@import "fonts";
+@import "helpers";
+@import "badges";
+@import "cards";
+@import "lists";
+@import "images";
+@import "carousels";

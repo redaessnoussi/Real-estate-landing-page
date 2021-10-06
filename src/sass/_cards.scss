@@ -1,0 +1,11 @@
+.card-navs{
+  border: 0!important;
+  cursor: pointer;
+  &.active{
+    background-color: $blight2;
+  }
+  .card-img-top{
+    height: 170px;
+    object-fit: cover;
+  }
+}

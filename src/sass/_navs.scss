@@ -1,0 +1,37 @@
+// TOP MENU NAV
+a.nav-link {
+  margin-right: 18px;
+  font-size: 24px;
+}
+
+.nav-tabs-secondary {
+  border-bottom: solid 3px $grey;
+
+  a.nav-link.active {
+    border: 0 !important;
+  }
+
+  a.nav-link {
+    color: $grey;
+    border: 0 !important;
+    // margin-right: 18px;
+    // font-size: 24px;
+  }
+
+  a.nav-link:hover {
+    border: 0;
+  }
+
+  a.nav-link.active:after {
+    content: '';
+    border-bottom: solid 3px $secondary;
+    position: absolute;
+    width: 100%;
+    bottom: -3px;
+    left: 0;
+  }
+
+  li.nav-item {
+    position: relative;
+  }
+}
