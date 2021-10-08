@@ -1,8 +1,12 @@
-.img-fit{
-  background-image: url(../img/img-6.png);
+.img-fit-1{
+  background-image: url(../img/img-1.png);
   background-size: cover;
-  height: 700px;
+  min-height: 350px;
+  height: 600px;
+  @include media-breakpoint-down(md){
+    height: auto!important;
+  }
   width: 100%;
-  position: absolute;
-  background-position: bottom;
+  // position: absolute;
+  // background-position: bottom;
 }

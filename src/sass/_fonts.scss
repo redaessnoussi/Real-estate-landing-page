@@ -8,3 +8,27 @@ body{
 .font-weight-lighter{
   font-weight: lighter;
 }
+
+@include media-breakpoint-down(md) {
+  .fs-6-xs{
+    font-size: 1rem;
+  }
+
+  .fs-13-xs{
+    font-size: 13px!important;
+  }
+  
+  .fs-18-xs {
+      font-size: 18px;
+  }
+
+  .fs-14-xs {
+      font-size: 14px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .line-height-80{
+    line-height: 80px;
+  }
+}
