@@ -1,15 +1,23 @@
 .slider-2 {
+  @include media-breakpoint-down(md) {
+    margin-right: -12px;
+    margin-left: -12px;
+  }
+
   .carousel-inner {
-    img{
+    img {
       min-height: 300px;
       object-fit: cover;
     }
+
     @include media-breakpoint-up(md) {
-      right: -100px;
-      position: absolute;
-      left: -100px;
+      margin-right: -100px;
+      position: relative;
+      margin-left: -100px;
+      margin-bottom: -100px;
       width: auto;
-      height: 480px;
+      height: auto;
+      max-height: 760px;
     }
   }
 
