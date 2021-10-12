@@ -12,7 +12,7 @@
     transition: width 0.5s;
   }
 
-  @include media-breakpoint-up(md){
+  @include media-breakpoint-up(lg){
     li.active:after {
       content: '';
       width: 45px;
