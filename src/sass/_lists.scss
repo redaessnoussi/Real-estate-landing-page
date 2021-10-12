@@ -9,6 +9,24 @@
     position: absolute;
     top: 50%;
     left: -120px;
+    transition: width 0.5s;
+  }
+
+  @include media-breakpoint-up(md){
+    li.active:after {
+      content: '';
+      width: 45px;
+      height: 45px;
+      position: absolute;
+      background-color: #329fdf;
+      clip-path: polygon(0 50%, 100% 100%, 100% 0);
+      right: -14px;
+    }
+  }
+
+  li a{
+    color: inherit; 
+    text-decoration: none;
   }
 
   li:before {

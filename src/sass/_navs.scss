@@ -2,7 +2,8 @@
 a.nav-link {
   margin-right: 18px;
   font-size: 24px;
-  @include media-breakpoint-down(lg){
+
+  @include media-breakpoint-down(lg) {
     font-size: 18px;
   }
 }
